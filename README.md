@@ -1,16 +1,27 @@
-# e_commerce_app
+# E-Commerce App (Admin & User)
 
-A new Flutter project.
+A Flutter + Firebase based E-Commerce application with separate roles for **Admin** and **User**.
 
-## Getting Started
+## 🚀 Features
+- Firebase Authentication (Signup / Login)
+- User & Admin role management
+- Firestore Database integration
+- Secure authentication flow
+- Clean Flutter UI
 
-This project is a starting point for a Flutter application.
+## 🛠 Tech Stack
+- Flutter
+- Firebase Authentication
+- Cloud Firestore
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Screens
+- Signup Screen
+- Login Screen
+- Role-based access (Admin / User)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📌 Status
+Project under active development.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+Developed by **Ronak Parmar**
