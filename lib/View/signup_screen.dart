@@ -96,7 +96,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 controller: passwordController,
                 decoration: InputDecoration(
                   labelText: 'Password',
-                  border: OutlineInputBorder(),
+                  border: const OutlineInputBorder(),
                   suffixIcon: IconButton(
                     onPressed: () {
                       setState(() {

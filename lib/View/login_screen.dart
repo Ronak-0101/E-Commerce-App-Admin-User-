@@ -106,7 +106,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   controller: passwordController,
                   decoration: InputDecoration(
                     labelText: 'Password',
-                    border: OutlineInputBorder(),
+                    border: const OutlineInputBorder(),
                     suffixIcon: IconButton(
                       onPressed: () {
                         setState(() {

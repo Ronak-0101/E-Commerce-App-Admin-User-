@@ -21,11 +21,11 @@ class AdminSceen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Welcome to the Admin Page."),
+            const Text("Welcome to the Admin Page."),
             ElevatedButton(onPressed: () {
               _authService.signOut();
               Navigator.pushReplacement(context, MaterialPageRoute(builder: (_)=> const LoginScreen()));
-            }, child: Text("Sign Out"))
+            }, child: const Text("Sign Out"))
           ],
         ),
       ),
@@ -44,7 +44,7 @@ class UserScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("User Screen"),
+        title: const Text("User Screen"),
         backgroundColor: Colors.green,
         foregroundColor: Colors.white,
       ),
@@ -52,14 +52,14 @@ class UserScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Welcome User!"),
+            const Text("Welcome User!"),
             ElevatedButton(
               onPressed: () {
                 _authService.signOut();
                 Navigator.pushReplacement(context,
                     MaterialPageRoute(builder: (_) => const LoginScreen()));
               },
-              child: Text("Sign Out"),
+              child: const Text("Sign Out"),
             ),
           ],
         ),
